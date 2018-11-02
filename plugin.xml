@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension
+	      point="org.eclipse.jdt.ui.javaCompletionProposalComputer"
+	      id="CodeProposalComputer">
+	      <javaCompletionProposalComputer
+	         activate="true"
+	         categoryId="CodeProposal.javaCompletionProposalComputer"
+             class="codeproposal.ProposalComputer">
+	      </javaCompletionProposalComputer>
+	</extension>
+	<!--<extension
+	      point="org.eclipse.ui.startup">
+	    <startup
+	          class="codeproposal.PythonCommunication">
+	    </startup>
+	</extension>-->
+</plugin>
